@@ -9,4 +9,6 @@ Esse projeto foi desenvolvido com o framework angular, typescript e scss. Estou 
 
 O primeiro commit foi criado toda pasta do projeto, removendo oque não seria utilizado, e a criação do Header.
 
+O segundo commit foi criado um componente banner e usando a diretiva @Input passando uma string, para que possa reutilizar esse banner em outros locais, e também foi criado o footer, utilizando o componente do banner para usar a iamgem de logotipo
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
