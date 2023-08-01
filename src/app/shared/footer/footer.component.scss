@@ -3,10 +3,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-    img {
-      width: 162px;
+  .banner {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
   }
+
+    app-bannner {
+        width: 162px;
+    }
 
   background-color: #222222;
   color: #fff;
