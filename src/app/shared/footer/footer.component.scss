@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+    img {
+      width: 162px;
+  }
+
+  background-color: #222222;
+  color: #fff;
+
+  .redes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding: 0;
+
+      li {
+        width: 100%;
+        text-align: start;
+
+      }
+
+    }
+  }
+}
