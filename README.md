@@ -16,4 +16,7 @@ O terceiro commit foi criado os cards, foram criados 2 componentes, card-depoime
 O quarto commit foi criado o formulário de busca, importamos alguns componentes do material.io, nessa parte ocorreram alguns erros de importação, como:  MatDatepickerModule, MatNativeDateModule, MatMomentDateModule,
 vefiquei o console do navegador para encontrar os erros, e no MatMomentDateModule tive que instalar um pacote npm i @angular/material-moment-adapter --save para que resolvesse os erros.
 
+o quinto e ultimo commit foi para criar o modal, ao selecionar quantos adultos ou qual classe da viajem, abre um modal para que o usuário escolha essas quantidades.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
