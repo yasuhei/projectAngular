@@ -25,6 +25,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
+import { ModalComponent } from './shared/modal/modal.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,8 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     CardSearchComponent,
     CardDepoimentComponent,
     FormSearchComponent,
+    ModalComponent,
+    BotaoControleComponent,
   ],
   imports: [
     BrowserModule,
@@ -56,6 +61,7 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
     MatDatepickerModule,
     MatNativeDateModule,
     MatMomentDateModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
