@@ -11,4 +11,6 @@ O primeiro commit foi criado toda pasta do projeto, removendo oque não seria ut
 
 O segundo commit foi criado um componente banner e usando a diretiva @Input passando uma string, para que possa reutilizar esse banner em outros locais, e também foi criado o footer, utilizando o componente do banner para usar a iamgem de logotipo
 
+O terceiro commit foi criado os cards, foram criados 2 componentes, card-depoiment, e card-search, e foram introduzidos no componente Home
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
