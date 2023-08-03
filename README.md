@@ -13,4 +13,7 @@ O segundo commit foi criado um componente banner e usando a diretiva @Input pass
 
 O terceiro commit foi criado os cards, foram criados 2 componentes, card-depoiment, e card-search, e foram introduzidos no componente Home
 
+O quarto commit foi criado o formulário de busca, importamos alguns componentes do material.io, nessa parte ocorreram alguns erros de importação, como:  MatDatepickerModule, MatNativeDateModule, MatMomentDateModule,
+vefiquei o console do navegador para encontrar os erros, e no MatMomentDateModule tive que instalar um pacote npm i @angular/material-moment-adapter --save para que resolvesse os erros.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
