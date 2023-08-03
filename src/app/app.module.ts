@@ -17,6 +17,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { CardSearchComponent } from './shared/card-search/card-search.component';
 import { MatCardModule } from '@angular/material/card';
 import { CardDepoimentComponent } from './shared/card-depoiment/card-depoiment.component';
+import { FormSearchComponent } from './shared/form-search/form-search.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatMomentDateModule } from '@angular/material-moment-adapter';
 
 @NgModule({
   declarations: [
@@ -29,6 +37,7 @@ import { CardDepoimentComponent } from './shared/card-depoiment/card-depoiment.c
     HomeComponent,
     CardSearchComponent,
     CardDepoimentComponent,
+    FormSearchComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,6 +47,15 @@ import { CardDepoimentComponent } from './shared/card-depoiment/card-depoiment.c
     MatButtonModule,
     MatIconModule,
     MatCardModule,
+    MatButtonToggleModule,
+    MatChipsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatMomentDateModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
