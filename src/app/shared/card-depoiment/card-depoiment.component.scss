@@ -1,0 +1,29 @@
+.mat-card{
+  max-width: 320px;
+  background-color: #f2f7ff;
+  border-radius: 12px;
+  display:flex ;
+  button {
+    margin: 0 16px 48px;
+    width: 100%;
+  }
+
+.card-depoimento {
+  display:flex ;
+  justify-content: center;
+
+
+  .card-info {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+}
+
+
+}
+
+
